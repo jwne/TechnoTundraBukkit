@@ -25,7 +25,7 @@
     <server>0</server>
     <minram>95</minram>
     <maxram>4001</maxram>
-    <jar>F:\Users\Skandha\Games\MCServer Bukkit\craftbukkit.jar</jar>
+    <jar>C:\Users\Skandha\Games\TechnoTundraBukkit\craftbukkit.jar</jar>
     <custom_args>
     </custom_args>
     <custom_switch>
