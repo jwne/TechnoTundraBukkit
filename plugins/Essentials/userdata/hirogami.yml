@@ -1,6 +1,6 @@
 timestamps:
-  login: 1372241548313
-  logout: 1372241567397
+  login: 1372241734247
+  logout: 1372241842397
   lastteleport: 1372234284700
 ipAddress: 10.0.0.2
 lastlocation:
@@ -12,9 +12,9 @@ lastlocation:
   pitch: 16.5888
 logoutlocation:
   world: CTW
-  x: 346.8347276727455
+  x: 345.6055904672991
   y: 72.0
-  z: -41.36493811586294
-  yaw: -272.3338
-  pitch: 0.6144148
+  z: -39.678929782121735
+  yaw: -155.59776
+  pitch: -44.851177
 afk: false
