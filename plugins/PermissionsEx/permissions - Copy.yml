@@ -1,0 +1,470 @@
+groups:
+  default:
+    default: true
+    options:
+      rank: '1000'
+    permissions:
+    - modifyworld.chat
+    - essentials.spawn
+    - essentials.rules
+    - essentials.motd
+    - essentials.list
+    - essentials.helpop
+    - essentials.help
+    - simpleflip.flip
+    worlds:
+      creative:
+        prefix: '&c[Newbie]&2'
+        suffix: '&f'
+        permissions:
+        - -modifyworld.items.have.383.50
+        - -modifyworld.items.have.383.56
+        - -modifyworld.items.have.383.58
+        - -modifyworld.items.have.383.61
+        - modifyworld.*
+      inheritance:
+      - survival
+  Admin:
+    permissions:
+    - '*'
+    options:
+      rank: '0'
+    prefix: '&0[&5Almighty&0] &0- &5'
+  Mod:
+    prefix: '&0(&cMod&0)&7'
+    permissions:
+    - magicsigns.survival.create
+    - magicsigns.feed.create
+    - magicsigns.heal.create
+    - magicsigns.clear.create
+    - magicsigns.health.create
+    - magicsigns.rocket.create
+    - magicsigns.creative.create
+    - magicsigns.speed.create
+    - magicsigns.level.create
+    - magicsigns.teleport.create
+    - magicsigns.command.create
+    - magicsigns.survival.use
+    - magicsigns.feed.use
+    - magicsigns.heal.use
+    - magicsigns.clear.use
+    - magicsigns.health.use
+    - magicsigns.rocket.use
+    - magicsigns.creative.use
+    - magicsigns.speed.use
+    - magicsigns.level.use
+    - magicsigns.teleport.use
+    - magicsigns.command.use
+    - simpleflip.flip
+    - worldguard.region.claim
+    - worldedit.selection.*
+    - mondochest.*
+    - multiverse.portal.access.*
+    - multiverse.access.*
+    - ChestShop.mod
+    - ChestShop.shop.*
+    - iConomy.holdings
+    - iConomy.holdings.others
+    - iConomy.help
+    - iConomy.payment
+    - iConomy.accounts.create
+    - iConomy.accounts.remove
+    - iConomy.accounts.give
+    - iConomy.accounts.take
+    - iConomy.accounts.set
+    - iConomy.accounts.status
+    - iConomy.accounts.status.set
+    - essentials.help
+    - essentials.warp.overwrite.*
+    - -modifyworld.items.have.383.50
+    - -modifyworld.items.have.383.56
+    - -modifyworld.items.have.383.58
+    - -modifyworld.items.have.383.61
+    - essentials.itemspawn.item-all
+    - essentials.give.item-all
+    - lockette.user.create.*
+    - lockette.user.create
+    - modifyworld.*
+    - -modifyworld.items.have.383
+    - bukkit.command.help
+    - bukkit.command.tell
+    - bukkit.command.me
+    - bukkit.command.list
+    - lockette.admin.create.*
+    - bukkit.command.ban
+    - bukkit.command.unban
+    - bukkit.command.time.set
+    - bukkit.command.time.add
+    - bukkit.command.kill
+    - bukkit.command.kick
+    - bukkit.command.teleport
+    - bukkit.command.gamemode
+    - bukkit.command.give
+    - memorystone.build
+    - memorystone.create.*
+    - memorystone.create.noteleport
+    - memorystone.use
+    - multiverse.access.*
+    - multiverse.help
+    - multiverse.teleport.*
+    - griefprevention.createclaims
+    - griefprevention.adminclaims
+    - worldedit.*
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.ext
+    - essentials.getpos
+    - essentials.helpop.recieve
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.mute
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.weather
+    - essentials.whois
+    - essentials.world
+    - permissions.user.promote.Builder
+    - permissions.user.demote.Builder
+    - permissions.manage.membership
+    - essentials.gamemode
+    - essentials.give
+    - essentials.give.item-all
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.item
+    - essentials.itemspawn.item-all
+    - essentials.afk
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.depth
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.protect
+    - essentials.sethome
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - essentials.list
+    - multiverse.core.list.worlds
+    - multiverse.core.spawn.self
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - casinoslots.create.*
+    - casinoslots.manage
+    - casinoslots.use.*
+    - gbshopper.admin
+    - gbrewarder.admin
+    options:
+      rank: '100'
+  Builder:
+    permissions:
+    - gbrewarder.user
+    - gbshopper.user
+    - casinoslots.create.*
+    - casinoslots.manage
+    - casinoslots.use.*
+    - magicsigns.survival.use
+    - magicsigns.feed.use
+    - magicsigns.heal.use
+    - magicsigns.clear.use
+    - magicsigns.health.use
+    - magicsigns.rocket.use
+    - magicsigns.creative.use
+    - magicsigns.speed.use
+    - magicsigns.level.use
+    - magicsigns.teleport.use
+    - magicsigns.command.use
+    - simpleflip.flip
+    - -modifyworld.items.have.383.50
+    - -modifyworld.items.have.383.56
+    - -modifyworld.items.have.383.58
+    - -modifyworld.items.have.383.61
+    - mondochest.*
+    - multiverse.portal.access.*
+    - ChestShop.shop.*
+    - multiverse.access.*
+    - iConomy.user
+    - essentials.list
+    - modifyworld.*
+    - lockette.user.create.*
+    - bukkit.command.help
+    - bukkit.command.tell
+    - bukkit.command.me
+    - bukkit.command.list
+    - memorystone.create.local
+    - memorystone.use
+    - multiverse.core.teleport.self
+    - griefprevention.createclaims
+    - multiverse.access.*
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.depth
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.protect
+    - essentials.sethome
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - worldguard.region.claim
+    - worldedit.selection.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    options:
+      rank: '900'
+users:
+  Hirogami:
+    group:
+    - Admin
+    options:
+      group: Admin
+  Yajihba:
+    group:
+    - Mod
+    options:
+      group: Mod
+  potatoe4:
+    worlds:
+      theZombies3:
+        prefix: '&4 The God Among Men &6'
+        permissions:
+        - '*'
+    group:
+    - Mod
+    options:
+      group: Mod
+  ffstudios:
+    group:
+    - Builder
+    options:
+      group: Builder
+  omnomnommer:
+    group:
+    - Builder
+    options:
+      group: Builder
+  omnomnomer:
+    worlds:
+      theZombies3:
+        prefix: '&4 THE &6'
+        group:
+        - Mod
+    group:
+    - Builder
+    options:
+      group: Builder
+  raditznappa:
+    prefix: '&0[&2LordofSquids&0]&7'
+    group:
+    - Mod
+    options:
+      group: Mod
+  Russian11:
+    group:
+    - Mod
+    options:
+      group: Mod
+  liam315:
+    group:
+    - Builder
+    options:
+      group: Builder
+  SpaceManJones23:
+    prefix: '&0(&aHumbleFarmer&0)&7'
+    group:
+    - Builder
+    options:
+      group: Builder
+  acenario:
+    prefix: '&0(&bSuperGigaMegaVishnu&0)&7'
+    group:
+    - Mod
+    options:
+      group: Mod
+  sarchikani:
+    prefix: '&d Big Daddy &d'
+    worlds:
+      SarTest:
+        permissions:
+        - essentials.bigtree
+    group:
+    - Mod
+    options:
+      group: Mod
+  metaldoornobs:
+    group:
+    - Mod
+    options:
+      group: Mod
+  kevinlang:
+    group:
+    - Mod
+    options:
+      group: Mod
+  BubbleBowl:
+    group:
+    - Mod
+    options:
+      group: Mod
+  kozy315:
+    worlds:
+      theZombies3:
+        prefix: '&4 THE &6'
+        group:
+        - Mod
+      Hardcore:
+        group:
+        - Builder
+    group:
+    - Mod
+    options:
+      group: Builder
+  carroll315:
+    group:
+    - Builder
+    options:
+      group: Builder
+  redmoon96:
+    group:
+    - Builder
+    options:
+      group: Builder
+  espycorp06:
+    group:
+    - Builder
+    options:
+      group: Builder
+  samlorizzle:
+    group:
+    - Builder
+    options:
+      group: Builder
+  PITHEAD:
+    group:
+    - Builder
+  SpaceManJones32:
+    group:
+    - Builder
+  AlexL978:
+    group:
+    - Builder
+  velle729:
+    group:
+    - Mod
+  Timotheon:
+    group:
+    - Builder
+  glenn69:
+    group:
+    - Builder
+  M14Gamble:
+    group:
+    - Builder
+  xtr3m3nerd:
+    group:
+    - Builder
+  OnlyMathias:
+    prefix: '&0(&9THE&0)&7'
+    group:
+    - Mod
+  R_Sharpe_03:
+    group:
+    - Builder
+  lupon22:
+    group:
+    - Builder
