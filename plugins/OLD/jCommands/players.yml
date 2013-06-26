@@ -1,0 +1,258 @@
+Hirogami:
+  back:
+    enabled: true
+    x: 59.38873001560517
+    y: 64.0
+    z: 219.61204488014698
+    yaw: 11.157565116882324
+    pitch: 10.233648300170898
+    world: S1
+  IP: 10.0.0.2
+  home:
+    enabled: true
+    x: 267.9175777080775
+    y: 85.0
+    z: 88.59539340982745
+    yaw: 210.73924255371094
+    pitch: 44.23680114746094
+    world: CTW
+  afk: false
+  god mode: false
+  Ban reason: 10 seconds Sprint Hacks
+  fly: true
+OnlyMathias:
+  IP: 98.229.34.2
+  back:
+    enabled: true
+    x: 268.0887549236759
+    y: 85.0
+    z: 86.04084492360849
+    yaw: -337.00811767578125
+    pitch: 34.02238464355469
+    world: CTW
+  home:
+    enabled: true
+    x: 248.0974606128031
+    y: 73.4771572224
+    z: 86.07186818929847
+    yaw: -179.368896484375
+    pitch: 55.58714294433594
+    world: CTW
+  afk: false
+  god mode: false
+  Ban reason: 1 hour hacks 1 hour hacks
+  fly: true
+RaditzNappa:
+  IP: 24.147.125.60
+  back:
+    enabled: true
+    x: 368.30000001192093
+    y: 70.375
+    z: -27.7869554219948
+    yaw: -269.97088623046875
+    pitch: 90.0
+    world: CTW
+  home:
+    enabled: true
+    x: 250.53777888356825
+    y: 72.0
+    z: 86.93612620631664
+    yaw: -50.2392578125
+    pitch: 17.806808471679688
+    world: CTW
+  afk: false
+  Ban reason: 1 hour 1 hour
+SilentNative:
+  IP: 71.217.91.209
+  back:
+    enabled: true
+    x: 267.5
+    y: 85.0
+    z: 88.5
+    yaw: 0.0
+    pitch: 0.0
+    world: CTW
+  home:
+    enabled: true
+    x: 263.71195167080356
+    y: 85.0
+    z: -167.8934039724857
+    yaw: -87.61865234375
+    pitch: 3.803290605545044
+    world: CTW
+  afk: false
+  fly: true
+sarchikani:
+  IP: 100.0.11.143
+  back:
+    enabled: true
+    x: 237.94834168050568
+    y: 64.76636799395752
+    z: -31.080868173771492
+    yaw: -87.598876953125
+    pitch: 35.5496826171875
+    world: CTW
+  home:
+    enabled: true
+    x: 252.65774628057903
+    y: 70.0
+    z: 211.85642845573264
+    yaw: 7.19992733001709
+    pitch: 22.200002670288086
+    world: Jump
+  afk: false
+  Ban reason: none 1 hour
+  fly: true
+SpaceManJones32:
+  IP: 24.147.96.176
+  back:
+    enabled: true
+    x: -126.5
+    y: 66.0
+    z: 247.5
+    yaw: -3.474195718765259
+    pitch: 29.820180892944336
+    world: Survival
+  home:
+    enabled: true
+    x: 175.18758849523698
+    y: 81.0
+    z: 271.063564369964
+    yaw: -97.20211791992188
+    pitch: 32.70002365112305
+    world: Survival
+  afk: false
+T0A5TER_:
+  IP: /50.132.0.12
+  back:
+    enabled: true
+    x: -67.99717010890404
+    y: 68.0
+    z: 484.9467425537513
+    yaw: 198.29859924316406
+    pitch: 5.399935245513916
+    world: Survival
+Maple_Foot:
+  IP: 24.17.216.8
+  back:
+    enabled: true
+    x: 246.0
+    y: 58.0
+    z: -166.0
+    yaw: 0.0
+    pitch: 0.0
+    world: CTW
+  afk: false
+  fly: false
+masahiko12345:
+  IP: /97.126.126.211
+  back:
+    enabled: true
+    x: 197.01301873849505
+    y: 76.0
+    z: 258.5617599736789
+    yaw: -314.2231140136719
+    pitch: -3.6075809001922607
+    world: Survival
+acenario:
+  IP: 75.68.226.215
+  back:
+    enabled: true
+    x: 243.84355262509183
+    y: 61.0
+    z: -156.68567808367953
+    yaw: 6.427545547485352
+    pitch: 22.120800018310547
+    world: CTW
+  afk: false
+  fly: true
+  god mode: false
+  frozen: false
+  home:
+    enabled: true
+    x: 274.50322711698027
+    y: 85.0
+    z: -168.09202254592526
+    yaw: -282.25396728515625
+    pitch: 52.436397552490234
+    world: CTW
+onlycasper:
+  IP: /98.229.34.2
+  back:
+    enabled: true
+    x: 457.69999998807907
+    y: 48.0
+    z: 622.3000000119209
+    yaw: 133.70005798339844
+    pitch: -10.649917602539062
+    world: Survival
+  home:
+    enabled: true
+    x: 456.4529000592766
+    y: 105.0
+    z: 610.7921040520713
+    yaw: -9.94990348815918
+    pitch: 59.00000762939453
+    world: Survival
+RussianGuy135:
+  IP: 71.227.237.47
+  afk: false
+dodd24:
+  IP: 10.0.0.9
+  afk: false
+  god mode: true
+  back:
+    enabled: true
+    x: -5.558013436855031
+    y: 131.2749061883052
+    z: 233.66736772760157
+    yaw: 183.61289978027344
+    pitch: 30.146379470825195
+    world: Creative
+  fly: true
+asharj:
+  IP: 10.0.0.29
+  back:
+    enabled: true
+    x: 168.77649375004103
+    y: 65.0
+    z: 382.5244940803002
+    yaw: 159.349853515625
+    pitch: 10.64989948272705
+    world: Survival
+  afk: false
+Kevinlang:
+  IP: 71.184.79.247
+  back:
+    enabled: true
+    x: 37.471725944919726
+    y: 49.0
+    z: -1.4160382137714138
+    yaw: 75.2021484375
+    pitch: 13.949881553649902
+    world: MCSG
+  frozen: false
+  afk: false
+$$U:
+  Ban reason: $$? $$?
+Yajihba:
+  IP: 75.68.226.215
+  back:
+    enabled: true
+    x: 276.1832041784343
+    y: -1.7999999523162853
+    z: -117.418214956063
+    yaw: 129.03106689453125
+    pitch: 2.5370712280273438
+    world: CTW
+  afk: false
+  fly: true
+hirogami:
+  home:
+    enabled: true
+    x: 265.96742979878564
+    y: 85.0
+    z: 87.80734411813319
+    yaw: 95.2320327758789
+    pitch: 23.347206115722656
+    world: CTW

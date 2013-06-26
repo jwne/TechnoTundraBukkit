@@ -1,0 +1,20 @@
+afk: false
+logoutlocation:
+  world: S1
+  x: 3.5450796903414425
+  y: 66.13921055248925
+  z: 211.81828900101073
+  yaw: 88.47361
+  pitch: 60.2112
+timestamps:
+  logout: 1372230494851
+  login: 1372230504751
+  lastteleport: 1372230525044
+ipAddress: 10.0.0.2
+lastlocation:
+  world: SGMAP
+  x: 3.6999999880790706
+  y: 71.20000004768374
+  z: 7.302422149022576
+  yaw: 286.31024
+  pitch: -90.0

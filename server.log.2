@@ -1,0 +1,221 @@
+2013-01-21 20:30:46 [INFO] Starting minecraft server version 1.4.6
+2013-01-21 20:30:46 [INFO] Loading properties
+2013-01-21 20:30:46 [INFO] Default game type: CREATIVE
+2013-01-21 20:30:46 [INFO] Generating keypair
+2013-01-21 20:30:46 [INFO] Starting Minecraft server on *:25565
+2013-01-21 20:30:47 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.6-R0.1-b2561jnks (MC: 1.4.6) (Implementing API version 1.4.6-R0.1)
+2013-01-21 20:30:47 [INFO] [ClearLag] Loading ClearLag v1.8.0
+2013-01-21 20:30:47 [INFO] [Essentials] Loading Essentials v2.9.2
+2013-01-21 20:30:47 [INFO] [WorldEdit] Loading WorldEdit v17-b385e09
+2013-01-21 20:30:47 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.9.2
+2013-01-21 20:30:47 [INFO] MLog clients using java 1.4+ standard logging.
+2013-01-21 20:30:47 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.9.2
+2013-01-21 20:30:47 [INFO] [ColorMe] Loading ColorMe v3.6
+2013-01-21 20:30:47 [INFO] [EssentialsChat] Loading EssentialsChat v2.9.2
+2013-01-21 20:30:48 [INFO] Preparing level "MAP"
+2013-01-21 20:30:48 [INFO] Preparing start region for level 0 (Seed: 6026905634096533333)
+2013-01-21 20:30:48 [INFO] ----- Bukkit Auto Updater -----
+2013-01-21 20:30:48 [INFO] It appears that you're running a Beta Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+2013-01-21 20:30:48 [INFO] If you would like to be kept informed about new Beta Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'beta'.
+2013-01-21 20:30:48 [INFO] With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+2013-01-21 20:30:48 [INFO] If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+2013-01-21 20:30:48 [INFO] ----- ------------------- -----
+2013-01-21 20:30:49 [INFO] Preparing spawn area: 81%
+2013-01-21 20:30:49 [INFO] Preparing start region for level 1 (Seed: 6026905634096533333)
+2013-01-21 20:30:50 [INFO] Preparing spawn area: 77%
+2013-01-21 20:30:50 [INFO] Preparing start region for level 2 (Seed: 6026905634096533333)
+2013-01-21 20:30:50 [INFO] [ClearLag] Enabling ClearLag v1.8.0
+2013-01-21 20:30:50 [SEVERE] Cannot load plugins/ClearLag/config.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 115, column 1:
+    	- Pig
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:138)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:105)
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:117)
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:111)
+	at me.minebuilders.clearlag.ClearLagMain.onEnable(ClearLagMain.java:18)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_4_6.CraftServer.loadPlugin(CraftServer.java:278)
+	at org.bukkit.craftbukkit.v1_4_6.CraftServer.enablePlugins(CraftServer.java:260)
+	at net.minecraft.server.v1_4_6.MinecraftServer.j(MinecraftServer.java:321)
+	at net.minecraft.server.v1_4_6.MinecraftServer.e(MinecraftServer.java:300)
+	at net.minecraft.server.v1_4_6.MinecraftServer.a(MinecraftServer.java:259)
+	at net.minecraft.server.v1_4_6.DedicatedServer.init(DedicatedServer.java:149)
+	at net.minecraft.server.v1_4_6.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_6.ThreadServerApplication.run(SourceFile:849)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 115, column 1:
+    	- Pig
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:507)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53)
+	... 17 more
+2013-01-21 20:30:51 [INFO] [ClearLag] Checking for a new update...
+2013-01-21 20:30:51 [INFO] [ClearLag] No update for ClearLag found!
+2013-01-21 20:30:51 [SEVERE] Cannot load plugins/ClearLag/config.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 115, column 1:
+    	- Pig
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:138)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:105)
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:117)
+	at me.minebuilders.clearlag.managers.PluginManager.reloadConfiguration(PluginManager.java:50)
+	at me.minebuilders.clearlag.managers.PluginManager.enable(PluginManager.java:36)
+	at me.minebuilders.clearlag.ClearLagMain.onEnable(ClearLagMain.java:22)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_4_6.CraftServer.loadPlugin(CraftServer.java:278)
+	at org.bukkit.craftbukkit.v1_4_6.CraftServer.enablePlugins(CraftServer.java:260)
+	at net.minecraft.server.v1_4_6.MinecraftServer.j(MinecraftServer.java:321)
+	at net.minecraft.server.v1_4_6.MinecraftServer.e(MinecraftServer.java:300)
+	at net.minecraft.server.v1_4_6.MinecraftServer.a(MinecraftServer.java:259)
+	at net.minecraft.server.v1_4_6.DedicatedServer.init(DedicatedServer.java:149)
+	at net.minecraft.server.v1_4_6.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_6.ThreadServerApplication.run(SourceFile:849)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<string>", line 115, column 1:
+    	- Pig
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:507)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:203)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53)
+	... 18 more
+2013-01-21 20:30:51 [INFO] [ClearLag] ClearLag is now enabled.
+2013-01-21 20:30:51 [INFO] [Essentials] Enabling Essentials v2.9.2
+2013-01-21 20:30:51 [INFO] Essentials: Using config based permissions. Enable superperms in config.
+2013-01-21 20:30:51 [INFO] [WorldEdit] Enabling WorldEdit v17-b385e09
+2013-01-21 20:30:51 [INFO] WEPIF: Using the Bukkit Permissions API.
+2013-01-21 20:30:52 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.9.2
+2013-01-21 20:30:52 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-01-21 20:30:52 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.9.2
+2013-01-21 20:30:52 [INFO] [ColorMe] Enabling ColorMe v3.6
+2013-01-21 20:30:53 [INFO] [ColorMe] Vault was not found! Running without economy!
+2013-01-21 20:30:53 [INFO] [ColorMe] Running without Spout!
+2013-01-21 20:30:53 [INFO] [ColorMe] Using own group system!
+2013-01-21 20:30:53 [INFO] [ColorMe] SoftMode enabled. If other chat plugins are found, the chat won't be affected by ColorMe.
+2013-01-21 20:30:53 [INFO] [ColorMe] Found EssentialsChat. Will use it for chat!
+2013-01-21 20:30:53 [INFO] [EssentialsChat] Enabling EssentialsChat v2.9.2
+2013-01-21 20:30:53 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-01-21 20:30:53 [INFO] Done (5.200s)! For help, type "help" or "?"
+2013-01-21 20:32:13 [INFO] CONSOLE: Opped Silentnative[m
+2013-01-21 20:37:33 [INFO] [33;22m[31;22m[ClearLag] [31;1mWarning Ground items will be removed in one minute![m
+2013-01-21 20:38:33 [INFO] [33;22m[33;22m[ClearLag] [32;1mRemoved 1 Entities![m
+2013-01-21 20:44:13 [INFO] [33;22m[31;22m[ClearLag] [31;1mWarning Ground items will be removed in one minute![m
+2013-01-21 20:45:13 [INFO] [33;22m[33;22m[ClearLag] [32;1mRemoved 1 Entities![m
+2013-01-21 20:46:35 [INFO] /10.0.0.3:64504 lost connection
+2013-01-21 20:46:43 [INFO] RaditzNappa[/25.90.95.241:62945] logged in with entity id 30 at ([MAP] -158.38690948462997, 55.0, -215.6328751802879)
+2013-01-21 20:47:00 [INFO] Hirogami[/10.0.0.3:64513] logged in with entity id 604 at ([MAP] -1.304505269848556, 65.60218553240188, -125.79015720874024)
+2013-01-21 20:47:06 [INFO] OnlyMathias[/25.8.229.211:56592] logged in with entity id 967 at ([MAP] -178.4311289467888, 54.708885312804874, -186.30000001192093)
+2013-01-21 20:47:21 [INFO] Hirogami issued server command: /difficulty 0
+2013-01-21 20:47:21 [INFO] Hirogami: Set difficulty to PEACEFUL[m
+2013-01-21 20:47:31 [INFO] Hirogami issued server command: /time set 3798000
+2013-01-21 20:47:31 [INFO] [PLAYER_COMMAND] Hirogami: /time set 3798000 
+2013-01-21 20:47:31 [INFO] [Essentials] debug edited 03798000
+2013-01-21 20:47:37 [INFO] RaditzNappa issued server command: //set 3
+2013-01-21 20:47:44 [INFO] Hirogami issued server command: /tp r
+2013-01-21 20:47:44 [INFO] [PLAYER_COMMAND] Hirogami: /tp r 
+2013-01-21 20:47:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:47:52 [INFO] RaditzNappa issued server command: /undo
+2013-01-21 20:47:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:48:35 [INFO] RaditzNappa issued server command: //expand 20 d
+2013-01-21 20:48:40 [INFO] RaditzNappa issued server command: //copy
+2013-01-21 20:48:40 [INFO] OnlyMathias issued server command: //expand 100 down
+2013-01-21 20:48:44 [INFO] OnlyMathias issued server command: //set 1
+2013-01-21 20:48:53 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:49:10 [INFO] OnlyMathias issued server command: //set 2
+2013-01-21 20:49:15 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:49:38 [INFO] OnlyMathias issued server command: //overlay 78
+2013-01-21 20:49:49 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:49:49 [INFO] Unknown command. Type "help" for help.[m
+2013-01-21 20:49:51 [INFO] OnlyMathias issued server command: //overlay 78
+2013-01-21 20:49:53 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:50:11 [INFO] Connection reset
+2013-01-21 20:50:11 [INFO] RaditzNappa lost connection: disconnect.overflow
+2013-01-21 20:50:14 [INFO] Connection reset
+2013-01-21 20:50:14 [INFO] OnlyMathias lost connection: disconnect.overflow
+2013-01-21 20:50:16 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-01-21 20:50:29 [INFO] RaditzNappa[/25.90.95.241:62972] logged in with entity id 7782 at ([MAP] -176.42791409430876, 64.0, -180.69901162530044)
+2013-01-21 20:50:33 [INFO] RaditzNappa issued server command: //paste
+2013-01-21 20:50:48 [INFO] [32;1m[------Available ClearLag Commands------][m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg check (Counts entitities)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg reload (Reloads the plugin)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg clear (Clears all entities)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg killmobs (kills all mobs)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg unloadchunks (Unloads chunks)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg chunk (Locate laggy chunks)[m
+2013-01-21 20:50:48 [INFO] [33;22m - /lagg tpchunk (Teleport to chunks)[m
+2013-01-21 20:50:48 [INFO] [32;1m[------------------------------------][m
+2013-01-21 20:50:58 [INFO] OnlyMathias[/25.8.229.211:56659] logged in with entity id 8047 at ([MAP] -129.7919498021515, 75.90557057978752, -187.30356025566306)
+2013-01-21 20:51:00 [INFO] [33;22m[CLAG] [32;1m800 chunks have been unloaded![m
+2013-01-21 20:51:07 [INFO] OnlyMathias issued server command: //undo
+2013-01-21 20:51:18 [INFO] Connection reset
+2013-01-21 20:51:18 [INFO] RaditzNappa lost connection: disconnect.overflow
+2013-01-21 20:51:33 [INFO] RaditzNappa[/25.90.95.241:63004] logged in with entity id 8509 at ([MAP] -116.77181293870224, 64.0, -180.64726044941713)
+2013-01-21 20:51:33 [INFO] [33;22m[31;22m[ClearLag] [31;1mWarning Ground items will be removed in one minute![m
+2013-01-21 20:51:39 [INFO] RaditzNappa issued server command: //paste
+2013-01-21 20:52:33 [INFO] [33;22m[33;22m[ClearLag] [32;1mRemoved 2 Entities![m
+2013-01-21 20:52:35 [INFO] Hirogami issued server command: /stop
+2013-01-21 20:52:36 [INFO] Hirogami: Stopping the server..[m
+2013-01-21 20:52:36 [INFO] Stopping server
+2013-01-21 20:52:36 [INFO] [EssentialsChat] Disabling EssentialsChat v2.9.2
+2013-01-21 20:52:36 [INFO] [ColorMe] Disabling ColorMe v3.6
+2013-01-21 20:52:36 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.9.2
+2013-01-21 20:52:36 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.9.2
+2013-01-21 20:52:37 [INFO] [WorldEdit] Disabling WorldEdit v17-b385e09
+2013-01-21 20:52:37 [INFO] [Essentials] Disabling Essentials v2.9.2
+2013-01-21 20:52:37 [INFO] [ClearLag] Disabling ClearLag v1.8.0
+2013-01-21 20:52:37 [INFO] [ClearLag] ClearLag is now disabled.
+2013-01-21 20:52:37 [INFO] Saving players
+2013-01-21 20:52:37 [WARNING] DSCT: Socket closed
+2013-01-21 20:52:37 [INFO] Closing listening thread
+2013-01-21 20:52:37 [INFO] Saving worlds
+2013-01-21 20:52:37 [INFO] Saving chunks for level 'MAP'/Overworld
+2013-01-21 20:52:38 [INFO] Saving chunks for level 'MAP_nether'/Nether
+2013-01-21 20:52:38 [INFO] Saving chunks for level 'MAP_the_end'/The End
+2013-01-21 20:52:38 [INFO] Stopping server

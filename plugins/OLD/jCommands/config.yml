@@ -1,0 +1,37 @@
+jCommands:
+  Join message: true
+  Server:
+    Website: http://www.example.com/
+  Plugin:
+    Send Stats: true
+    Version Checker: true
+    News Checker: false
+  Ban Message: The Ban Hammer has Spoken
+  Broadcast bans: false
+  Kick Message: You've been kicked from the server
+  Broadcast kicks: false
+  Log all commands: false
+  Player:
+    No join message: false
+    No quit message: false
+    Remove fly on leave: false
+    Remove god mode on leave: false
+    Remove freeze on leave: false
+    Remove mute on leave: false
+  Protection:
+    Prevent:
+      Fire Spread: false
+      Placing:
+        Bedrock: false
+        Fire: false
+        Flint and Steel: false
+        Ice: false
+        Lava: false
+        Stationary Lava: false
+        Lava Buckets: false
+        Obsidian: false
+        TnT: false
+        TnT Carts: false
+        Water: false
+        Stationary Water: false
+        Water Buckets: false

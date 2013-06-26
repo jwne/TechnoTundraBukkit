@@ -1,0 +1,87 @@
+---
+plugin: 
+  permissions: 
+    system: 'default'
+    copies: ''
+groups: 
+  Admins: 
+    default: false
+    info: 
+      prefix: 'Admin'
+      suffix: 'Åòmultiplay'
+      build: true
+    inheritance: ''
+    permissions: 
+      - '*'
+  Default: 
+    default: true
+    info: 
+      prefix: 'User'
+      suffix: ''
+      build: true
+    inheritance: ''
+    permissions: 
+      - 'essentials.help'
+      - 'essentials.home'
+      - 'essentials.motd'
+      - 'essentials.rules'
+      - 'essentials.spawn'
+      - 'essentials.tpa'
+      - 'essentials.sethome'
+      - 'multiverse.mvtp'
+      - 'essentials.tpaccept'
+      - 'essentials.tpdeny'
+      - 'essentials.mail'
+      - 'essentials.list'
+      - 'essentials.helpop'
+      - 'essentials.ignore'
+      - 'essentials.ping'
+      - 'essentials.msg'
+  Moderator: 
+    default: false
+    info: 
+      prefix: 'Mod'
+      suffix: ''
+      build: true
+    inheritance: 
+      - 'Default'
+    permissions: 
+      - 'essentials.tp'
+      - 'essentials.tphere'
+      - 'essentials.tempban'
+      - 'essentials.mute'
+      - 'essentials.ci'
+      - 'essentials.kick'
+      - 'essentials.back'
+      - 'essentials.gamemode'
+      - 'essentials.whois'
+      - 'essentials.inv'
+      - 'essentials.nick'
+      - 'essentials.itemdb'
+      - 'essentials.time'
+      - 'essentials.give'
+      - 'essentials.hat'
+      - 'worldedit.*'
+      - 'essentials.delwarp'
+      - 'essentials.delhome'
+users: 
+  Acenario: 
+    group: 'Moderator'
+    permissions: 
+      - 'multiverse.*'
+  Hirogami: 
+    group: 'Admins'
+    permissions: ''
+  OnlyMathias: 
+    group: 'Moderator'
+    permissions: 
+      - 'multiverse.*'
+  Raditznappa: 
+    group: 'Moderator'
+    permissions: ''
+  SilentNative: 
+    group: 'Moderator'
+    permissions: ''
+  sarchikani: 
+    group: 'Moderator'
+    permissions: ''

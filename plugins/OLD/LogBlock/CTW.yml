@@ -1,0 +1,30 @@
+logging:
+  TNTEXPLOSION: true
+  LEAVESDECAY: true
+  MISCEXPLOSION: true
+  SNOWFORM: true
+  NATURALSTRUCTUREGROW: true
+  WITHER_SKULL: true
+  KILL: true
+  FIRE: true
+  CHAT: false
+  WATERFLOW: true
+  BONEMEALSTRUCTUREGROW: true
+  BLOCKPLACE: true
+  ENDERDRAGON: true
+  DIODEINTERACT: false
+  SNOWFADE: true
+  CHESTACCESS: true
+  ENDERMEN: false
+  WITHER: true
+  SIGNTEXT: true
+  WORLDEDIT: true
+  LAVAFLOW: false
+  CAKEEAT: true
+  BLOCKBREAK: true
+  SWITCHINTERACT: true
+  NOTEBLOCKINTERACT: true
+  GHASTFIREBALLEXPLOSION: true
+  CREEPEREXPLOSION: true
+  DOORINTERACT: true
+table: lb-CTW

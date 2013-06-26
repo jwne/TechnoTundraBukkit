@@ -1,0 +1,12 @@
+name: AlwaysDay
+main: me.LlamaGoingNorth.alwaysday.AlwaysDay
+version: 2.0
+description: >
+             Keep it Day or Night.
+commands:
+    alwaysday:
+        description: Enables/disables AlwaysDay.
+    day:
+        description: Keeps it daytime.
+    night:
+        description: Keeps it nighttime.

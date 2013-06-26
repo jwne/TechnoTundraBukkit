@@ -1,0 +1,13 @@
+name: SimpleBackup
+main: com.exolius.simplebackup.SimpleBackup
+version: 1.5
+
+commands:
+   sbackup:
+      description: Run map backup
+      usage: /sbackup
+
+permissions:
+   simplebackup.use:
+      description: Run map backup
+      default: op

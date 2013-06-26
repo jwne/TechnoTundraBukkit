@@ -1,0 +1,11 @@
+Debug: false
+teleportOnQuit: true
+Worlds:
+  - CTW
+  - ExampleWorld2
+WorldRestore:
+  - 60
+  - 120
+RestoreDelay: 10
+CommandList:
+  - msg [Player] Pls wait [TimeLeft] seconds. Restore only every [Time] seconds.

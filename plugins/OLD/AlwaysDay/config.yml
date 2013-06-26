@@ -1,0 +1,4 @@
+# 
+# It is possible to find the current state by typing '/alwaysday state'
+always: day
+enabled: true

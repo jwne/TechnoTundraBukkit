@@ -1,0 +1,464 @@
+name: jCommands
+main: com.jozethdev.jcommands.jCommands
+version: 1.2.0
+website: http://dev.bukkit.org/server-mods/jcommands/
+description: Useful commands for a server
+author: Jozeth
+commands:
+  afk:
+    usage: /afk
+    description: Toggles AFK mode.
+    aliases: jcafk
+  back:
+    usage: /back
+    description: Teleports you back to your last location.
+    aliases: jcback
+  ban:
+    usage: /ban <player> [reason]
+    description: Bans a player from the server.
+    aliases: jcban
+  banned:
+    usage: /banned <player>
+    description: Check if a player is banned.
+    aliases: jcbanned
+  boom:
+    usage: /boom
+    description: Creates a small crater where you're looking.
+    aliases: jcboom
+  broadcast:
+    usage: /broadcast <message>
+    description: Broadcast a message to everyone.
+    aliases: jcbroadcast
+  burn:
+    usage: /burn [player]
+    description: Burn yourself or other players.
+    aliases: [jcburn, ignite]
+  clear:
+    usage: /clear [player]
+    description: Clears your own inventory or other players.
+    aliases: [jcclear, empty]
+  day:
+    usage: /day
+    description: Turns the current time to day.
+    aliases: jcday
+  disappear:
+    usage: /disappear [player]
+    description: Makes you invisible to other players.
+    aliases: [jcdisappear, invisible]
+  enderchest:
+    usage: /enderchest [player]
+    description: Open other player's enderchest.
+    aliases: [jcenderchest, ec]
+  extinguish:
+    usage: /extinguish [player]
+    description: Extinguish yourself or other players.
+    aliases: [jcextinguish, ext]
+  feed:
+    usage: /feed [player]
+    description: Feed yourself or other players.
+    aliases: jcfeed
+  fly:
+    usage: /fly [player]
+    description: Enable/disable fly for yourself or other players.
+    aliases: jcfly
+  freeze:
+    usage: /freeze <player>
+    description: Freeze another player.
+    aliases: jcfreeze
+  fullheal:
+    usage: /fullheal [player]
+    description: Feed and Heal yourself or other players.
+    aliases: jcfullheal
+  gm:
+    usage: /gm [player]
+    description: Changes your gamemode or other players.
+    aliases: jcgm
+  god:
+    usage: /god [player]
+    description: Changes your god mode to true for yourself or other players.
+    aliases: jcgod
+  heal:
+    usage: /heal [player]
+    description: Heal yourself or other players.
+    aliases: jcheal
+  home:
+    usage: /home
+    description: Teleports you to your set home.
+    aliases: jchome
+  inv:
+    usage: /inv <player>
+    description: Open other player's inventory.
+    aliases: jcinv
+  ip:
+    usage: /ip <player>
+    description: Shows the IP Address of another player.
+    aliases: jcip
+  item:
+    usage: /item <material> <amount>
+    description: Gives you a particular item.
+    aliases: jcitem
+  jcommands:
+    usage: /jcommands [checkversion|cv|checknews|cn]
+    description: Shows you information about jCommands.
+    aliases: jc
+  kick:
+    usage: /kick <player> [reason]
+    description: Kicks a player from the server.
+    aliases: jckick
+  kill:
+    usage: /kill <player>
+    description: Kills another player.
+    aliases: jckill
+  location:
+    usage: /location
+    description: Shows you what world you're in and your coordinates.
+    aliases: [jclocation, getpos]
+  message:
+    usage: /message <player> <message>
+    description: Send messages to other players.
+    aliases: [jcmsg, msg]
+  mute:
+    usage: /mute <player>
+    description: Mute another player.
+    aliases: jcmute
+  night:
+    usage: /night
+    description: Turns the current time to night.
+    aliases: jcnight
+  nuke:
+    usage: /nuke
+    description: Makes a massive crater where you're looking.
+    aliases: jcnuke
+  ping:
+    usage: /ping
+    description: Pong (Check if your server is lagging).
+    aliases: jcping
+  put:
+    usage: /put
+    description: Teleports you to where you're looking.
+    aliases: jcput
+  ram:
+    usage: /ram
+    description: Shows you the max/used/free RAM on the server.
+    aliases: jcram
+  reappear:
+    usage: /reappear [player]
+    description: Opposite of disappear, too be honest.
+    aliases: [jcreappear, visible]
+  serverwebsite:
+    usage: /serverwebsite
+    description: Displays the server's website (located in the config) to the player.
+    aliases: [jcserverwebsite, sw]
+  sethome:
+    usage: /sethome
+    description: Sets your home.
+    aliases: jcsethome
+  setspawn:
+    usage: /setspawn
+    description: Sets the spawn for your world.
+    aliases: jcsetspawn
+  smite:
+    usage: /smite [player]
+    description: Fires a lightning bolt where you are looking or at a player.
+    aliases: jcsmite
+  spawn:
+    usage: /spawn
+    description: Teleports you to the spawn.
+    aliases: jcspawn
+  spawnmob:
+    usage: /spawnmob <mob> <amount>
+    description: Spawns in any mob.
+    aliases: jcspawnmob
+  starve:
+    usage: /starve [player]
+    description: Starve yourself or other players.
+    aliases: jcstarve
+  storm:
+    usage: /storm
+    description: Makes it snow/rain.
+    aliases: jcstorm
+  suicide:
+    usage: /suicide
+    description: Kill yourself, basically commit suicide.
+    aliases: jcsuicide
+  sun:
+    usage: /sun
+    description: Makes the sky clear.
+    aliases: jcsun
+  thunder:
+    usage: /thunder
+    description: Makes it thunder.
+    aliases: jcthunder
+  tp:
+    usage: /tp <player>
+    description: Teleports you to a player.
+    aliases: jctp
+  tp2p:
+    usage: /tp2p <player1> <player2>
+    description: Teleport a player to another player.
+    aliases: jctp2p
+  tpall:
+    usage: /tpall
+    description: Teleports everyone to you.
+    aliases: jctpall
+  tpc:
+    usage: /tpc <x, y, z>
+    description: Teleports you to specific coordinates.
+    aliases: jctpc
+  tphere:
+    usage: /tphere <player>
+    description: Teleports a player to you.
+    aliases: jctphere
+  unban:
+    usage: /unban <player>
+    description: Unbans a player from the server.
+    aliases: jcunban
+  unfreeze:
+    usage: /unfreeze <player>
+    description: Unfreeze a frozen player.
+    aliases: jcunfreeze
+  ungod:
+    usage: /ungod <player>
+    description: Changes your god mode to false for yourself or other players.
+    aliases: jcungod
+  unmute:
+    usage: /unmute <player>
+    description: Unmute a muted player.
+    aliases: jcunmute
+  workbench:
+    usage: /workbench
+    description: Open a workbench.
+    aliases: [jcworkbench, wb]
+permissions:
+    jcommands.*:
+        description: Allows you to use all the commands
+        default: op
+    jcommands.afk:
+        description: Allows you to toggle AFK mode
+        default: op
+    jcommands.back:
+        description: Allows you to teleport back to your last location
+        default: op
+    jcommands.back.ondeath:
+        description: Allows you to teleport back to your death spot
+        default: op
+    jcommands.ban:
+        description: Allows you to ban a player from the server
+        default: op
+    jcommands.banned:
+        description: Allows you to check if a player os banned
+        default: op
+    jcommands.boom:
+        description: Allows you to create a small crater
+        default: op
+    jcommands.broadcast:
+        description: Allows you to broadcast messages to everyone
+        default: op
+    jcommands.burn:
+        description: Allows you to set your self on fire
+        default: op
+    jcommands.burn.others:
+        description: Allows you to burn other players
+        default: op
+    jcommands.clear:
+        description: Allows you to clear your inventory
+        default: op
+    jcommands.clear.others:
+        description: Allows you to clear other player's inventories
+        default: op
+    jcommands.checknews:
+        description: Allows you to check news for jCommands in-game
+        default: op
+    jcommands.checkversion:
+        description: Allows you to check jCommands version for an update in-game
+        default: op
+    jcommands.day:
+        description: Allows you to change the time to day
+        default: op
+    jcommands.enderchest:
+        description: Allows you to check your ender chest
+        default: op
+    jcommands.enderchest.others:
+        description: Allows you to check other player's ender chest
+        default: op
+    jcommands.extinguish:
+        description: Allows you to extinguish yourself
+        default: op
+    jcommands.extinguish.others:
+        description: Allows you to extinguish other players
+        default: op
+    jcommands.feed:
+        description: Allows you to feed yourself
+        default: op
+    jcommands.feed.others:
+        description: Allows you to feed other players
+        default: op
+    jcommands.fly:
+        description: Allows you to enable/disable fly for yourself
+        default: op
+    jcommands.fly.others:
+        description: Allows you to enable/disable fly for other players
+        default: op
+    jcommands.freeze:
+        description: Allows you to freeze another player
+        default: op
+    jcommands.fullheal:
+        description: Allows you to fully heal yourself
+        default: op
+    jcommands.fullheal.others:
+        description: Allows you to fully heal other players
+        default: op
+    jcommands.gamemode:
+        description: Allows you to change your own gamemode
+        default: op
+    jcommands.gamemode.others:
+        description: Allows you to change other players gamemode
+        default: op
+    jcommands.godmode:
+        description: Allows you to change your own god mode
+        default: op
+    jcommands.godmode.others:
+        description: Allows you to change your other players god mode
+        default: op
+    jcommands.heal:
+        description: Allows you to heal yourself
+        default: op
+    jcommands.heal.others:
+        description: Allows you to heal other players
+        default: op
+    jcommands.home:
+        description: Allows you to teleport to your home
+        default: op
+    jcommands.inv:
+        description: Allows you to open other player's inventory
+        default: op
+    jcommands.ip:
+        description: Allows you to see another player's IP Address
+        default: op
+    jcommands.item:
+        description: Allows you to give yourself items
+        default: op
+    jcommands.invisible:
+        description: Allows you to become invisible and reappear
+        default: op
+    jcommands.invisible.others:
+        description: Allows you to become invisible and reappear
+        default: op
+    jcommands.kick:
+        description: Allows you to kick a player from the server
+        default: op
+    jcommands.kill:
+        description: Allows you to kill another player
+        default: op
+    jcommands.location:
+        description: Allows you to see what world you're in and what your coordinates are
+        default: op
+    jcommands.message:
+        description: Allows you to send messages to other players
+        default: op
+    jcommands.mute:
+        description: Allows you to mute another player
+        default: op
+    jcommands.night:
+        description: Allows you to change the time to night
+        default: op
+    jcommands.nuke:
+        description: Allows you to create a massive crater
+        default: op
+    jcommands.ping:
+        description: Allows you to check if your server is lagging
+        default: op
+    jcommands.protection.*:
+        description: Allows you to bypass any protection
+        default: op
+        children:
+          jcommands.protection.placing.*: false
+    jcommands.protection.placing.*:
+        description: Allows you to place any blocked item
+        default: op
+        children:
+          jcommands.protection.placing.bedrock: true
+          jcommands.protection.placing.fire: true
+          jcommands.protection.placing.flintandsteel: true
+          jcommands.protection.placing.ice: true
+          jcommands.protection.placing.lava: true
+          jcommands.protection.placing.stationarylava: true
+          jcommands.protection.placing.lavabuckets: true
+          jcommands.protection.placing.obsidian: true
+          jcommands.protection.placing.tnt: true
+          jcommands.protection.placing.water: true
+          jcommands.protection.placing.stationarywater: true
+          jcommands.protection.placing.waterbuckets: true
+    jcommands.put:
+        description: Allows you to teleport where you're looking
+        default: op
+    jcommands.ram:
+        description: Allows you to view the max/used/free RAM on the server
+        default: op
+    jcommands.serverwebsite:
+        description: Allows you to view the server's website
+        default: op
+    jcommands.sethome:
+        description: Allows you to set your home
+        default: op
+    jcommands.setspawn:
+        description: Allows you to set the spawn
+        default: op
+    jcommands.smite:
+        description: Allows you to smite where you're looking
+        default: op
+    jcommands.smite.others:
+        description: Allows you to smite other players
+        default: op
+    jcommands.spawn:
+        description: Allows you to teleport to the spawn
+        default: op
+    jcommands.spawnmob:
+        description: Allows you to spawn mobs
+        default: op
+    jcommands.starve:
+        description: Allows you to starve yourself
+        default: op
+    jcommands.starve.others:
+        description: Allows you to starve other players
+        default: op
+    jcommands.storm:
+        description: Allows you to change the weather to rain/snow
+        default: op
+    jcommands.suicide:
+        description: Allows you to commit suicide
+        default: op
+    jcommands.sun:
+        description: Allows you to make the weather clear
+        default: op
+    jcommands.thunder:
+        description: Allows you to make the weather thunder
+        default: op
+    jcommands.tp:
+        description: Allows you to teleport to another player
+        default: op
+    jcommands.tp2p:
+        description: Allows you to teleport a player to another player
+        default: op
+    jcommands.tpall:
+        description: Allows you to teleport everyone to you
+        default: op
+    jcommands.tpc:
+        description: Allows you to teleport to any coordinate
+        default: op
+    jcommands.tphere:
+        description: Allows you to teleport a player to you
+        default: op
+    jcommands.unban:
+        description: Allows you to unban a banned player from the server
+        default: op
+    jcommands.unfreeze:
+        description: Allows you to unfreeze a frozen player
+        default: op
+    jcommands.unmute:
+        description: Allows you to unmute a muted player
+        default: op
+    jcommands.workbench:
+        description: Allows you to open a workbench
+        default: op
+        

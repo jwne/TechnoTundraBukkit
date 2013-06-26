@@ -1,0 +1,2 @@
+&6Welcome, {PLAYER}&6!
+&6Currently online:&r {PLAYERLIST}
