@@ -1,0 +1,20 @@
+timestamps:
+  login: 1372306842493
+  lastteleport: 1372307188995
+  logout: 1372308952467
+ipAddress: 75.68.226.215
+lastlocation:
+  world: CTW_the_end
+  x: -5.351340566362561
+  y: -179.8574138752956
+  z: 64.39662555832726
+  yaw: -169.3504
+  pitch: -86.84999
+logoutlocation:
+  world: CTW_the_end
+  x: 0.0
+  y: 63.0
+  z: 0.0
+  yaw: -56.849983
+  pitch: -14.400004
+nickname: Toaster

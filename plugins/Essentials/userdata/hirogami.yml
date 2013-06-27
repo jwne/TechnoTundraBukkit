@@ -1,20 +1,28 @@
 timestamps:
-  login: 1372241734247
-  logout: 1372241842397
-  lastteleport: 1372234284700
+  login: 1372300343996
+  logout: 1372308957467
+  lastteleport: 1372308592308
 ipAddress: 10.0.0.2
 lastlocation:
-  world: CTW
-  x: 330.96164996508566
-  y: 72.0
-  z: -39.72640323083317
-  yaw: 87.24479
-  pitch: 16.5888
+  world: CTW_the_end
+  x: -8.56935366047633
+  y: 63.0
+  z: -7.296475724184329
+  yaw: 80.48634
+  pitch: 11.059197
 logoutlocation:
-  world: CTW
-  x: 345.6055904672991
-  y: 72.0
-  z: -39.678929782121735
-  yaw: -155.59776
-  pitch: -44.851177
+  world: CTW_the_end
+  x: 6.38180029039288
+  y: 65.1116330269739
+  z: -15.47931624188477
+  yaw: -220.69287
+  pitch: 24.278458
 afk: false
+homes:
+  home:
+    world: CTW
+    x: 267.7910650339618
+    y: 85.0
+    z: 88.00837616360575
+    yaw: -279.17615
+    pitch: 22.416037

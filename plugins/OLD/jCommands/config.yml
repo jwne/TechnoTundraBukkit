@@ -3,8 +3,8 @@ jCommands:
   Server:
     Website: http://www.example.com/
   Plugin:
-    Send Stats: true
-    Version Checker: true
+    Send Stats: false
+    Version Checker: false
     News Checker: false
   Ban Message: The Ban Hammer has Spoken
   Broadcast bans: false

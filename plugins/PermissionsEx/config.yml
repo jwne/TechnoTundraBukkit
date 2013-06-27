@@ -5,9 +5,9 @@ permissions:
   backend: file
   superperms:
     parent-nodes: true
-    enable: true
+    enable: false
     strict-mode: false
   createUserRecords: false
-  allowOps: true
+  allowOps: false
   debug: false
   basedir: plugins\PermissionsEx

@@ -1,0 +1,28 @@
+name: SimplePluginManager
+author: monster010
+main: org.monster010.SimplePluginManager.SimplePluginManager
+version: 1.1
+website: //
+commands:
+  pdisable:
+    description: Disables plugins.
+    usage: /pdisable PLUGIN to disable the plugins.
+    aliases: poff
+  penable:
+    description: Enables plugins.
+    usage: /penable PLUGIN to enable all plugins.
+    aliases: pon
+  ptoggle:
+    description: Toggles the enabled/disabled status of plugins.
+    usage: /ptoggle PLUGIN will toggle the status of all plugins.
+    aliases: tog
+  pstatus:
+    description: Tells you the current status of a plugin
+    usage: /pstatus PLUGIN will tell you the current enabled/disabled status of all plugins.
+    aliases: stat
+  plist:
+    description: Show a plugin list
+    aliases: plist
+  phelp:
+    description: Show a Help Menu
+    aliases: phelp

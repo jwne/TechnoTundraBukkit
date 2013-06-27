@@ -1,0 +1,8 @@
+name: MagicSigns
+main: de.philworld.bukkit.magicsigns.MagicSigns
+version: 1.8.0
+softdepend: [Vault]
+commands:
+  ms:
+    description: Base MagicSigns command.
+    aliases: [msigns, magicsigns]
