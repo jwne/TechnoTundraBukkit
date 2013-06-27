@@ -940,17 +940,17 @@ worlds:
       currency: '-1'
     hunger: 'true'
     autoHeal: 'true'
-    adjustSpawn: 'true'
+    adjustSpawn: 'false'
     portalForm: ALL
     gameMode: SURVIVAL
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      yaw: 92.198944
-      pitch: -0.61439955
-      z: -40.285678484332266
-      y: 72.0
-      x: 343.8149960113365
+      yaw: 92.81326
+      pitch: 17.817673
+      z: -40.5
+      y: 72.5
+      x: 345.5
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []

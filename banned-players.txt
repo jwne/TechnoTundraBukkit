@@ -1,4 +1,4 @@
-# Updated 6/26/13 9:56 PM by Minecraft 1.5.2
+# Updated 6/27/13 2:08 PM by Minecraft 1.5.2
 # victim name | ban date | banned by | banned until | reason
 
 stanley|2013-04-21 17:04:13 -0700|(Unknown)|Forever|Banned by an operator.

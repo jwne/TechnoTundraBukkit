@@ -1,7 +1,7 @@
 timestamps:
-  login: 1372300341155
+  login: 1372346895598
   lastteleport: 1372302264111
-  logout: 1372302720959
+  logout: 1372346140554
 ipAddress: 98.229.34.2
 lastlocation:
   world: CTW
@@ -12,9 +12,9 @@ lastlocation:
   pitch: 39.052147
 nickname: TheShit
 logoutlocation:
-  world: CTW
-  x: 266.11701711554616
-  y: 85.0
-  z: 88.55369354328114
-  yaw: -218.11267
-  pitch: 17.55838
+  world: CTW2
+  x: 162.3767048480999
+  y: 91.73717397791708
+  z: -47.40780934406273
+  yaw: -51.599915
+  pitch: 76.8288
