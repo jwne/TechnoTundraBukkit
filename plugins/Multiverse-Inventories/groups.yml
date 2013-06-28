@@ -5,15 +5,15 @@
 # No support will be given for those who manually edit these groups.
 groups:
 
-  default:
+  Survival:
 
     worlds:
 
-    - creative
+    - Survival
 
-    - creative_the_end
+    - Survival_the_end
 
-    - creative_nether
+    - Survival_nether
 
     shares:
 

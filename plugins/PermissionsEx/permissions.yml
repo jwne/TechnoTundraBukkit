@@ -25,11 +25,11 @@ groups:
       inheritance:
       - survival
   Admin:
+    prefix: '&0(&4Admin&0)&7'
     permissions:
     - '*'
     options:
       rank: '0'
-    prefix: '&0[&5Almighty&0] &0- &5'
   Mod:
     prefix: '&0(&cMod&0)&7'
     permissions:
@@ -309,10 +309,11 @@ groups:
       rank: '900'
 users:
   Hirogami:
+    prefix: '&0[&5Almighty&0] &0- &5'
     group:
-    - Builder
+    - Admin
     options:
-      group: Builder
+      group: Admin
   Yajihba:
     group:
     - Mod

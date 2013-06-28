@@ -1,28 +1,28 @@
 timestamps:
-  login: 1372401046292
-  logout: 1372400906892
-  lastteleport: 1372400059065
+  login: 1372409681305
+  logout: 1372409675903
+  lastteleport: 1372409600357
 ipAddress: 10.0.0.2
 lastlocation:
-  world: CTW
-  x: 342.3211502987737
-  y: 72.0
-  z: -40.1181458993434
-  yaw: 99.61025
-  pitch: 7.9872684
+  world: Survival
+  x: 1827.483730163441
+  y: 9.0
+  z: 2496.1654880751325
+  yaw: 92.03601
+  pitch: 23.030386
 logoutlocation:
-  world: Gate
-  x: 16.96594848500698
-  y: 64.0
-  z: 181.0652050112484
-  yaw: -94.617424
-  pitch: 24.575954
+  world: Survival
+  x: 1853.2272127574054
+  y: 9.0
+  z: 2505.2039556430864
+  yaw: 91.99777
+  pitch: 16.886383
 afk: false
 homes:
   home:
-    world: CTW
-    x: 267.7910650339618
-    y: 85.0
-    z: 88.00837616360575
-    yaw: -279.17615
-    pitch: 22.416037
+    world: Survival
+    x: 1828.7042683397449
+    y: 9.0
+    z: 2494.606288255539
+    yaw: 92.03601
+    pitch: 23.030386
