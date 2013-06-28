@@ -630,15 +630,15 @@ protect:
     # Should people with build: false in permissions be allowed to build?
     # Set true to disable building for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from building.
-    build: true
+    build: false
 
     # Should people with build: false in permissions be allowed to use items?
     # Set true to disable using for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from using.
-    use: true
+    use: false
 
     # Should we tell people they are not allowed to build?
-    warn-on-build-disallow: true
+    warn-on-build-disallow: false
 
   # For which block types would you like to be alerted?
   # You can find a list of IDs in plugins/Essentials/items.csv after loading Essentials for the first time.

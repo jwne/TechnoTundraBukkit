@@ -367,15 +367,15 @@ users:
   SpaceManJones23:
     prefix: '&0(&aHumbleFarmer&0)&7'
     group:
-    - Builder
+    - mod
     options:
-      group: Builder
+      group: mod
   acenario:
-    prefix: '&0(&bSuperGigaMegaVishnu&0)&7'
+    prefix: '&4[&2Almighty&4] &3- &7'
     group:
-    - Mod
+    - Admin
     options:
-      group: Mod
+      group: Admin
   sarchikani:
     prefix: '&d Big Daddy &d'
     worlds:
@@ -437,7 +437,7 @@ users:
   PITHEAD:
     group:
     - Builder
-  SpaceManJones32:
+  SilentNative:
     group:
     - Builder
   AlexL978:
@@ -459,9 +459,10 @@ users:
     group:
     - Builder
   OnlyMathias:
-    prefix: '&0(&9THE&0)&7'
     group:
     - Mod
+    options:
+      group: Mod
   R_Sharpe_03:
     group:
     - Builder

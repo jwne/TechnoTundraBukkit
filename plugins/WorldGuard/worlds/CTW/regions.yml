@@ -18,7 +18,8 @@ regions:
         flags: {build: allow, mob-spawning: deny}
         owners: {}
         members:
-            players: [hirogami, yajihba, ctw, sarchikani, acenario, -w, silentnative]
+            players: [hirogami, yajihba, ctw, sarchikani, acenario, silentnative,
+                -w]
     rgb:
         type: cuboid
         min: {x: 224.0, y: 63.0, z: 49.0}
@@ -27,8 +28,8 @@ regions:
         flags: {build: allow, mob-spawning: deny}
         owners: {}
         members:
-            players: [hirogami, yajihba, ctw, sarchikani, acenario, onlymathias, -w,
-                silentnative]
+            players: [hirogami, yajihba, ctw, sarchikani, acenario, silentnative,
+                -w, onlymathias]
     spawn:
         type: cuboid
         min: {x: 315.0, y: 52.0, z: -69.0}

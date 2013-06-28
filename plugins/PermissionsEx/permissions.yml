@@ -310,20 +310,15 @@ groups:
 users:
   Hirogami:
     group:
-    - Admin
+    - Builder
     options:
-      group: Admin
+      group: Builder
   Yajihba:
     group:
     - Mod
     options:
       group: Mod
   potatoe4:
-    worlds:
-      theZombies3:
-        prefix: '&4 The God Among Men &6'
-        permissions:
-        - '*'
     group:
     - Mod
     options:
@@ -452,12 +447,16 @@ users:
   glenn69:
     group:
     - Builder
-  M14Gamble:
+  ozan93120:
     group:
     - Builder
-  xtr3m3nerd:
+    options:
+      group: Builder
+  Jemax10:
     group:
     - Builder
+    options:
+      group: Builder
   OnlyMathias:
     group:
     - Mod
